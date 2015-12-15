@@ -9,6 +9,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
+import org.hibernate.engine.jdbc.ClobImplementer;
+
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.InterningXmlVisitor;
+
 import dominio.Atendente;
 import dominio.Cliente;
 import dominio.Endereco;
