@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>Inserido com sucesso! Codigo: ${reg.codregiao }</p>
+<p>Inserido com sucesso! Codigo: ${reg.codRegiao }</p>
 </body>
 </html>

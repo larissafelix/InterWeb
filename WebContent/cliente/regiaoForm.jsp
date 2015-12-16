@@ -14,12 +14,12 @@ pageEncoding="ISO-8859-1"%>
 <body>
 <h1>CADASTRO DE REGIÃO</h1>
 <h2>Entre com os dados da região</h2>
- <form method="post" action="<%=request.getContextPath()%>cliente/regiaoServlet" name="formReg">
+ <form method="post" action="<%=request.getContextPath()%>/cliente/regiaoServlet" name="formReg">
   <br />
 
  Nome : <input type="text" name="nome" value="${reg.nome}" /> <br />
  Valor : <input type="text" name="valor" value="${reg.valor}" /> <br />
- <input type="submit" value="Enviar" />
+ <input type="submit" value="Enviar" action="<%=request.getContextPath()%>cliente/regiaoServlet"/>
  </form>
 </body>
 </html>
